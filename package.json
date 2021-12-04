@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "webpack",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "start": "npx webpack-dev-server --open"
   },
   "devDependencies": {
     "ts-loader": "^9.2.6",
